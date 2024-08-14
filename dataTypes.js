@@ -16,14 +16,30 @@ console.log("Ayush")
 let name = "Ayush"  // string data type
 let age = "22" // number data type
 let isLoggedIn = false // boolean data type
+let state;
 
 
 
 
-
+// PRIMITIVE DATA TYPES{
 // number => 2 to power 53
 // bigint => for very big numbers
 // string => ""
 // boolean => true or false
 // null => standalone value
-// undefined 
+// undefined => value has not been assigned till now
+// symbol => it describes the uniqueness(mainly in react)
+
+// }
+
+// object
+
+console.log(typeof "Ayush"); // output:- string
+console.log(typeof undefined); // output:- undefined
+console.log(typeof null); //output:- object
+
+
+
+
+
+
